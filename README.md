@@ -42,6 +42,10 @@ ng update --all
 ```
 npm install --save-dev @angular/cli@latest
 npm install -g npm@"13.2"
+```
+or
+````
+npm install -g @angular/cli --migrate-only --from=16.13.2
 
 ```
 - Execute API REST
