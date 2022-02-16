@@ -44,3 +44,8 @@ npm install --save-dev @angular/cli@latest
 npm install -g npm@"13.2"
 
 ```
+- Ejecuted API REST
+```
+npm install
+nest start --watch
+```
