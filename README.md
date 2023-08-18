@@ -44,7 +44,7 @@ npm install --save-dev @angular/cli@latest
 npm install -g npm@"13.2"
 ```
 or
-````
+```
 npm install -g @angular/cli --migrate-only --from=16.13.2
 
 ```
@@ -53,3 +53,11 @@ npm install -g @angular/cli --migrate-only --from=16.13.2
 npm install
 nest start --watch
 ```
+
+-Git deploy pages github
+```
+git init
+git remote add origin "url"
+ng add angular-cli-ghpages
+ng deploy --base-href=http://rarubinat.github.io/name-project/
+````
