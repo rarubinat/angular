@@ -54,7 +54,7 @@ npm install
 nest start --watch
 ```
 
--Git deploy pages github
+- Git deploy pages github
 ```
 git init
 git remote add origin "url"
